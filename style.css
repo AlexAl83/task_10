@@ -1,0 +1,52 @@
+.calc-row {
+  height: 100vh;
+  font-family: 'Share Tech Mono', monospace;
+}
+.input-window {
+  text-align: end;
+  font-size: x-large;
+  margin: 5px auto;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.buttons div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+button {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 70px;
+  background-color: #999999;
+  font-size: 20px;
+  font-weight: 700;
+}
+button:hover {
+  background-color: #007bff;
+  color: #fafeff;
+}
+#equally:hover {
+  background-color: #00ff7b;
+  color: #fafeff;
+}
+.card-body {
+  background-color: #e6e3c4;
+}
+#btn_calc {
+  width: 75%;
+}
+textarea {
+  border: none;
+  border-radius: 10px;
+  height: 200px;
+  width: 100%;
+  font-size: 14px;
+  resize: none;
+  margin-top: 4px;
+  padding: 5px;
+}
